@@ -1,0 +1,33 @@
+.user-card {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 250px; /* Adjusted width to accommodate content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem; /* Space between cards */
+}
+
+.user-card p {
+  margin: 0.5rem 0;
+}
+
+.user-card button {
+  margin: 0.5rem 0.5rem 0 0;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.user-card button:hover {
+  background-color: #0056b3;
+}
+
+.user-card button:focus {
+  outline: 2px solid #0056b3; /* Highlight button on focus */
+}
+
+  

@@ -1,0 +1,13 @@
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.user-card {
+  flex: 1 1 calc(33.333% - 16px);
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

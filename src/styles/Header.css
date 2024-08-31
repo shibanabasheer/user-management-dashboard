@@ -1,0 +1,22 @@
+.header {
+    background-color: #282c34;
+    color: #fff;
+    height: 100px; /* Fixed height for the header */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+    width: 100%; /* Ensure the header spans the full width */
+    box-sizing: border-box; /* Ensure padding and border are included in the height */
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    margin: 0; /* Ensure there's no margin affecting alignment */
+    line-height: 1; /* Set line-height to 1 to avoid extra space */
+    padding: 0; /* Ensure no padding is affecting alignment */
+  }
+  
+  
