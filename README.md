@@ -4,7 +4,7 @@ This project is a simple User Management Dashboard built with React.js. It allow
 
 ## Features
 
-- View a list of users
+- View a list of users with pagination
 - Add new users
 - Edit existing users
 - Delete users
@@ -47,6 +47,7 @@ This project is a simple User Management Dashboard built with React.js. It allow
 - **Enhanced UI/UX:** The UI could be further refined to include better visual feedback (e.g., loading spinners, success messages).
 - **Error Handling:** Improved error handling strategies, such as differentiating between different types of errors (network issues, validation errors, etc.), would be beneficial.
 - **Data Persistence:** Implementing a real backend with persistent data storage instead of using a mock API would make the application more robust.
+- **Pagination:** I added pagination to manage the user list more effectively. This helps in reducing the load on the UI and improves user experience when dealing with large datasets.
 
 ## License
 

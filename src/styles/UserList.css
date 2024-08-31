@@ -1,13 +1,28 @@
 .user-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.user-card {
-  flex: 1 1 calc(33.333% - 16px);
-  box-sizing: border-box;
-  padding: 16px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px;
+    justify-items: center; 
+  }
+  
+  .user-card {
+    width: 100%; 
+    max-width: 300px; 
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 900px) {
+    .user-list {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .user-list {
+      grid-template-columns: 1fr; 
+    }
+  }
